@@ -1,0 +1,166 @@
+.icon-lg {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+#topbar {
+    background-color: #08947C;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#topbar span {
+    color: white;
+
+}
+
+.mrg-l {
+    margin-left: 10px;
+}
+
+#menu a {
+    color: black;
+}
+
+.img-redonda {
+    border-radius: 20px;
+}
+
+#hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FDFEFE;
+}
+
+#servicios-iconos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.icono {
+    background-color: #e8fffb;
+    padding: 42px;
+    font-size: 30px;
+    color: #09947D;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+
+.margintp {
+    margin-top: 30px;
+}
+
+.titulo-about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.numeros {
+    font-size: 60px;
+    color: #09947D;
+    font-weight: lighter;
+}
+
+.letras-gris {
+    font-size: 18px;
+    color: rgb(144, 144, 144);
+    font-weight: lighter;
+}
+
+.negro {
+    color: black;
+}
+
+#about {
+    padding-bottom: 50px;
+}
+
+#Newsletter {
+    background-color: #EDF7F5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+#Footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7FBFA;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.verdesito {
+    color: #09947D;
+}
+
+.iconoborde {
+    border-radius: 6px;
+    color: gray;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-color:rgb(135, 135, 135)00;
+    border-width: 1px;
+    text-decoration: none;
+
+}
+
+.marginlf{
+    margin-left: 5px;
+}
+
+.gris{
+    color: #888888;
+}
+
+@media (width <=1200px){
+    body{
+        background-color: cadetblue;
+    }
+
+    .titulo-hero{
+        font-size: 30px;
+        font-weight: bold;
+        color: #96e4d7;
+    }
+}
+
+@keyframes cambiarcolor{
+    0% {color: #08947C;}
+    50%{color: blueviolet;}
+    100%{color: cornflowerblue;}
+}
+
+.titulocambiarcolor{
+    animation-name: cambiarcolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#cleanblog {
+    background-image: url("../img/cleanblog.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+    
+}
+
+#cleanblog h1{
+    font-weight: bold;
+    font-size: 80px;
+}
